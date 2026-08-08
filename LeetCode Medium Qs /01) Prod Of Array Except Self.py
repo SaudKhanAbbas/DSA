@@ -1,4 +1,4 @@
-# 238. Product of Array Except Self
+# LeetCode 238. Product of Array Except Self
 
 class Solution:
     def productExceptSelf(self, nums: List[int]) -> List[int]:
@@ -26,16 +26,23 @@ class Solution:
         return result
 
 
+# Pattern:
+# Prefix & Suffix Product Pattern
+
 # Time Complexity:
 # O(n)
+#
 # - One pass to build the prefix array.
 # - One pass to build the suffix array.
 # - One pass to compute the result.
+#
 # Total = O(n)
 
 # Space Complexity:
 # O(n)
+#
 # - Prefix array: O(n)
 # - Suffix array: O(n)
 # - Result array: O(n)
+#
 # Overall auxiliary space = O(n)
