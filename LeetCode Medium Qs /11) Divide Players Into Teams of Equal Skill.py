@@ -1,3 +1,5 @@
+# LeetCode 2491. Divide Players Into Teams of Equal Skill
+
 class Solution:
     def dividePlayers(self, skill: List[int]) -> int:
         skill.sort()
@@ -14,6 +16,9 @@ class Solution:
 
         return ans
 
+
 # Pattern: Sorting + Two Pointers
+
 # Time Complexity: O(n log n)
+
 # Space Complexity: O(1)
