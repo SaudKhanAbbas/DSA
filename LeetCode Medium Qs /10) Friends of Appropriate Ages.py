@@ -1,3 +1,5 @@
+# LeetCode 825. Friends Of Appropriate Ages
+
 def numFriendRequests(ages):
     ages.sort()
     left = right = ans = 0
@@ -16,5 +18,9 @@ def numFriendRequests(ages):
 
     return ans
 
+
+# Pattern: Two Pointers + Sorting
+
 # Time Complexity: O(n log n)
+
 # Space Complexity: O(1)
